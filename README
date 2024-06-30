@@ -1,0 +1,15 @@
+# Getting and Cleaning Data Project
+
+This repository contains the R script and related files for the Getting and Cleaning Data Project from John Hopkins Coursera.
+
+## Files
+
+- `run_analysis.R`: R script that performs the analysis and creates the tidy dataset.
+- `tidyData.txt`: The output tidy dataset.
+- `CodeBook.md`: Describes the variables in the dataset.
+
+## How to Run the Script
+
+1. Ensure that the Samsung data is in your working directory.
+2. Run the `run_analysis.R` script.
+3. The output `tidyData.txt` will be created in your working directory.

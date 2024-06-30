@@ -1,0 +1,17 @@
+# CodeBook
+
+This code book describes the variables in the tidy dataset `tidyData.txt`.
+
+## Variables
+
+- `SubjectID`: Identifier for the subject who performed the activity.
+- `ActivityID`: Identifier for the activity performed.
+- `ActivityLabel`: Descriptive name of the activity performed.
+- `...`: Mean and standard deviation measurements for various features (e.g., `tBodyAcc-mean-X`, `tBodyAcc-std-X`, etc.).
+
+## Transformations
+
+1. Merged the training and test datasets.
+2. Extracted measurements on mean and standard deviation.
+3. Labeled the dataset with descriptive variable names.
+4. Created a tidy dataset with the average of each variable for each activity and each subject.
